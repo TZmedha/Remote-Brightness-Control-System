@@ -4,14 +4,14 @@
 #include <ArduinoJson.h>
 
 
-const char* ssid = "Zicore Technologies";
-const char* password = "62292723";
+const char* ssid = "***********";
+const char* password = "***********";
 
 
 const char* mqtt_server = "7ebfc64c2ccc4f7682d8677e511e3319.s1.eu.hivemq.cloud";
 const int mqtt_port = 8883;
 const char* mqtt_user = "Brightness_control";
-const char* mqtt_pass = "Esp8266Esp32";
+const char* mqtt_pass = "***********";
 
 
 WiFiClientSecure espClient;
